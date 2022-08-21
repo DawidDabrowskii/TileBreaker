@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 123773461}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2649686020212621438, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -476,6 +480,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9905074}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -542,6 +550,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1512444258}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -644,6 +656,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 123773461}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2649686020212621438, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -764,6 +780,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 144331841}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -842,6 +862,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 144331841}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1110,6 +1134,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1512444258}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1324,6 +1352,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1512444258}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1390,6 +1422,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 123773461}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2649686020212621438, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1455,6 +1491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948954333}
   - component: {fileID: 948954334}
+  - component: {fileID: 948954335}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -1503,6 +1540,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &948954335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948954332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d4b6e4bd8d0714d857bded854599cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &986792057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1510,6 +1559,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1512444258}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1576,6 +1629,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9905074}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1642,6 +1699,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 144331841}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1720,6 +1781,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9905074}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1852,6 +1917,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1512444258}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1918,6 +1987,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9905074}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1984,6 +2057,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 123773461}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: unbreakable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2649686020212621438, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2183,6 +2264,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 123773461}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2649686020212621438, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2245,6 +2330,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 144331841}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2361,6 +2450,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9905074}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2427,6 +2520,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9905074}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2493,6 +2590,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 123773461}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2649686020212621438, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2613,6 +2714,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1512444258}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2745,6 +2850,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 144331841}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2823,6 +2932,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9905074}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2889,6 +3002,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 144331841}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2967,6 +3084,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 123773461}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2649686020212621438, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3064,6 +3185,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 144331841}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3226,6 +3351,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1512444258}
     m_Modifications:
+    - target: {fileID: -8122011995635801915, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 643523628737805447, guid: 3ea76969d05bb8242bb0c03cc253601a, type: 3}
       propertyPath: m_Sprite
       value: 

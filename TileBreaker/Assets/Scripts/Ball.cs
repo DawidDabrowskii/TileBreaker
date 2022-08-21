@@ -12,7 +12,7 @@ public class Ball : MonoBehaviour
 
     private void Start()
     {
-        Invoke(nameof(BallTrajectory),1f); // 1s delay for method to start
+        ResetBall();
     }
 
     private void BallTrajectory()
@@ -22,5 +22,12 @@ public class Ball : MonoBehaviour
         force.y = -1f;
 
         this.rigidbody.AddForce(force.normalized * this.speed);
+    }
+
+    public void ResetBall ()
+    {
+        this.transform.position = Vector2.zero;
+        this.rigidbody.velocity = Vector2.zero;
+        Invoke(nameof(BallTrajectory), 1f); // random trajectory with 1s delay for method to start
     }
 }
