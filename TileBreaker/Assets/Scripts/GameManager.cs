@@ -1,11 +1,15 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public Ball ball { get; private set; }
     public Paddle paddle { get; private set; }
     public Brick[] bricks { get; private set; }
+
+    public Text remainingLives;
+    public Text currentPoints;
 
     public int level = 1;
     public int score = 0;
@@ -33,7 +37,11 @@ public class GameManager : MonoBehaviour
     {
         this.level = level;
 
-       SceneManager.LoadScene("Level" + level);
+        if(level > 3 ){
+            SceneManager.LoadScene("WinScreen");
+                } else {
+            SceneManager.LoadScene("Level" + level);
+        }
     }
 
     private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
@@ -54,6 +62,8 @@ public class GameManager : MonoBehaviour
     public void Miss()
     {
         this.lives--;
+        this.remainingLives.text = "Lives: " + lives.ToString();
+        this.currentPoints.text = "Point: " + score.ToString();
 
         if(this.lives > 0) {
             ResetLevel();
@@ -69,9 +79,8 @@ public class GameManager : MonoBehaviour
     }
     private void GameOver()
     {
-        // SceneManager.LoadScene("GameOver"); try again text with replay button
+        SceneManager.LoadScene("GameOver");
 
-        NewGame();
     }
     private bool Cleared() // check with loop if there are any bricks left, if not, move to the next level
     {

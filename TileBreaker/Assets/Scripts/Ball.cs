@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour
 {
     public new Rigidbody2D rigidbody { get; private set; }
     public float speed = 500f;
+    public bool Speeding = false;
 
     private void Awake()
     {
